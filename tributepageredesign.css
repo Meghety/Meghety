@@ -1,0 +1,47 @@
+body{
+    background: rgb(178, 218, 181);
+    margin-top: 50px;
+    height: 2000px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    text-align: center;
+    letter-spacing: 8px;
+    text-shadow: 1px 1px 10px wheat;
+    
+}
+
+
+
+.image{
+    width: 150px;
+    border: 1px solid black;
+    box-shadow: 1px 1px 10px black;
+}
+
+.desc{
+    text-align: center;
+}
+
+.container2{
+    margin-top:100px ;
+    text-align: left;
+    box-shadow: 1px 1px 20px rgb(0, 0, 0,0.2);
+    padding: 20px;
+    border-radius: 10px;
+    width: 1000px;
+}
+
+.about{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow: 1px 1px 10px rgb(67, 80, 69);
+}
